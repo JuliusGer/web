@@ -1,0 +1,107 @@
+header{
+	background-color:#e37335;
+	border-bottom: 3px solid #FF0;
+}
+
+#logo{
+	float:left;
+}
+
+#name{
+	letter-spacing: 10px;
+	text-align: center;
+	font-family: Arial, Verdana,  sans-serif;
+	font-size: 60px;
+	font-size: calc(25px+60+(100vw/1280));
+	text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #cad5e2 5px 5px 0;
+}
+
+nav{
+	max-width: 960px;
+	font-family: Ubuntu, Verdana,  sans-serif;
+	font-weight: bold;
+	background-color:#a0ad4b;
+	border-bottom: 3px solid #FF0;
+	letter-spacing: 3px;
+}
+
+.content{
+	max-width: 960px;
+	font-family: Ubuntu, Verdana,  sans-serif;
+	margin: 0 auto;
+	font-size: 15px;
+	background-image:url(content-background.png);
+}
+
+
+.img-cont{
+	width:100%;
+}
+
+footer {
+	/*background-color: #e37335;
+	border-top: 3px solid #FF0;*/
+	letter-spacing: 2px;
+	font-family: Ubuntu, Verdana,  sans-serif; 
+	font-size: 11pt; 
+	margin-top: 20px;
+	padding:20px;
+}
+
+html,body {
+	align-items: center;
+	margin: 0;
+	padding:0;
+	font-family: Ubuntu, Verdana,  sans-serif; 
+	font-size: 11pt; 
+	background-image:url(background.jpg);
+	background-size:100%;
+}
+h2 {
+	letter-spacing: 3px;
+	color: #a52a2a;
+	font-size: 24pt;
+	font-family: Ubuntu, Verdana,  sans-serif;
+	font-weight: normal;
+}
+h1 {
+	letter-spacing: 3px;
+	color: #a52a2a;
+	font-size: 25px;
+	font-family: Ubuntu, Verdana,  sans-serif;
+	font-weight: normal;
+	text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #cad5e2 5px 5px 0;
+}
+p {
+	text-align: justify;
+	border-left: 1px solid #999;
+}
+
+a:hover{
+	color:#f5a402;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#204521;
+	text-decoration: none;
+}
+
+a:active {
+	color:white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:white;
+	border-bottom: 2px solid #F54318;
+	border-color:white;
+	text-decoration: none;
+}
+.slide{
+    display: flex;
+}
